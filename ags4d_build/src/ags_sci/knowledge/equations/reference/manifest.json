@@ -1,0 +1,791 @@
+{
+  "corpus_name": "AGS-Sci Audited Mathematics and Physics Equation Corpus",
+  "corpus_version": "3.0.0",
+  "coverage_status": "Broad, partial research-domain coverage; not exhaustive. See research_coverage.json and docs/EQUATION_CORPUS.md.",
+  "data_bytes": 3703264,
+  "domain_counts": {
+    "mathematics": 3616,
+    "physics": 3004
+  },
+  "duplicate_policy": "Exact and whitespace-normalized formulas, reversed single equalities, duplicate IDs, and duplicate records are rejected globally; rearrangements and arbitrary symbolic permutations are not generated for count inflation.",
+  "file_count": 100,
+  "files": {
+    "graduate/mathematics/advanced_pde/equations.jsonl": {
+      "bytes": 5197,
+      "records": 18,
+      "sha256": "8cf5e4870a88a38941304cae8a55356f0a629e4eb4ad44f034bd6e0043d5758c"
+    },
+    "graduate/mathematics/advanced_probability/equations.jsonl": {
+      "bytes": 5492,
+      "records": 18,
+      "sha256": "8248089cda4af5b227a3a7e87430e33b2a7a5cb4ef1912cba2abbffa9fcd9dd5"
+    },
+    "graduate/mathematics/algebraic_geometry/equations.jsonl": {
+      "bytes": 4017,
+      "records": 14,
+      "sha256": "063f6d0ad6d7092936df8595956352b1aca17354b941f0c172a7c0bfaaee65e4"
+    },
+    "graduate/mathematics/algebraic_topology/equations.jsonl": {
+      "bytes": 4184,
+      "records": 14,
+      "sha256": "3d07026259030eb3cff85f6f6cfbd3b57ad8c4143113e4dc09775310c3cc3a9e"
+    },
+    "graduate/mathematics/differential_geometry/equations.jsonl": {
+      "bytes": 4533,
+      "records": 15,
+      "sha256": "fdc958eb36b14919695b0f44ac0d5c17078e5bb81439bceaf41532e4635128a9"
+    },
+    "graduate/mathematics/differential_topology/equations.jsonl": {
+      "bytes": 3607,
+      "records": 12,
+      "sha256": "5584092706a9959cafe7e0338d69d5538a907bfb315255c2050fa6d29c6f99f2"
+    },
+    "graduate/mathematics/functional_analysis/equations.jsonl": {
+      "bytes": 4675,
+      "records": 16,
+      "sha256": "829102841fdc4812abd7ca92437124d37c7f4f55f0456f5b380ae394ad75147c"
+    },
+    "graduate/mathematics/lie_theory/equations.jsonl": {
+      "bytes": 4276,
+      "records": 16,
+      "sha256": "063e5289d6cfc20fb47dfa27b14eb99a6e7a8eacc2e1cc7d2887967c78e4085b"
+    },
+    "graduate/mathematics/measure_theory/equations.jsonl": {
+      "bytes": 4877,
+      "records": 16,
+      "sha256": "eaec526bbe264eebcdf6df50fd61ff7de24ff1a8cdb23cbde93aadda1fa81ef4"
+    },
+    "graduate/mathematics/riemannian_geometry/equations.jsonl": {
+      "bytes": 4368,
+      "records": 15,
+      "sha256": "664c3f6fa608e5b69b96eb4b29e717a6de201ea47a0713ecb8e3ee858089d460"
+    },
+    "graduate/physics/advanced_optics/equations.jsonl": {
+      "bytes": 5902,
+      "records": 18,
+      "sha256": "adf2003c4e5982bdfeea0f78aade02061437ca0e868a4baa70c8ad390286aa52"
+    },
+    "graduate/physics/advanced_statistical_mechanics/equations.jsonl": {
+      "bytes": 5067,
+      "records": 18,
+      "sha256": "3e58fd7ca5d703072fdc84833aa6a885eed46cadb21882a199fd98127193f7a3"
+    },
+    "graduate/physics/condensed_matter/equations.jsonl": {
+      "bytes": 6416,
+      "records": 21,
+      "sha256": "f63aa52ed5afbe4cc34711889d6263aa46bd6a7e99fd9f919ce729a59cacc0a2"
+    },
+    "graduate/physics/gauge_theory/equations.jsonl": {
+      "bytes": 4953,
+      "records": 18,
+      "sha256": "ce97443f907c49b23429d05d52205f55cc11b82b526e257e9058580f9648d3b6"
+    },
+    "graduate/physics/general_relativity/equations.jsonl": {
+      "bytes": 7250,
+      "records": 24,
+      "sha256": "d63b7e14414c7e2ddbca1aa31837465d820c7edb429cec7662415149e347bbea"
+    },
+    "graduate/physics/plasma_physics/equations.jsonl": {
+      "bytes": 5639,
+      "records": 20,
+      "sha256": "7e5319982bee3f18d4fd74be255fab8f2c90847752e3afe26fd12b5fe6b1cbac"
+    },
+    "graduate/physics/quantum_field_theory/equations.jsonl": {
+      "bytes": 6826,
+      "records": 23,
+      "sha256": "fee3b573f881ff52b64f9d95da8490967477ffe11e68df9aa2f09b703d135cc4"
+    },
+    "k12_baseline.json": {
+      "bytes": 5277,
+      "sha256": "e872651358c554970070cb7dccd3a51c23880718bc993d7ed208427b7577cc57"
+    },
+    "mathematics/algebra/equations.jsonl": {
+      "bytes": 8767,
+      "records": 35,
+      "sha256": "d77dc11017f8e0872b027ee65dea947ff64cd3fa0b1d1fcb0bceaad9cbcad96f"
+    },
+    "mathematics/arithmetic/equations.jsonl": {
+      "bytes": 7762,
+      "records": 30,
+      "sha256": "5db0106d891db657cf05253e059a71c8bfffe6d0b74ba5bc0f3aef332e9106ef"
+    },
+    "mathematics/calculus/equations.jsonl": {
+      "bytes": 4034,
+      "records": 16,
+      "sha256": "67ae845f145cf1fea9687ca599f2635c8dadf4ed367aacdad21303087b084882"
+    },
+    "mathematics/coordinate_geometry/equations.jsonl": {
+      "bytes": 4030,
+      "records": 16,
+      "sha256": "175e5c443679771990864ed0aa7693af641fbe3594dc77f3a3814322e3907c20"
+    },
+    "mathematics/discrete_mathematics/equations.jsonl": {
+      "bytes": 1689,
+      "records": 6,
+      "sha256": "1827ecdb2921fd547db5abee7d53332981457e188d58532122c43f54a0906dba"
+    },
+    "mathematics/functions/equations.jsonl": {
+      "bytes": 4142,
+      "records": 16,
+      "sha256": "9ba8bcaeed37a1c15fc66135085e011ad81521f5f1b6575aefe872919e75e8dc"
+    },
+    "mathematics/geometry/equations.jsonl": {
+      "bytes": 7994,
+      "records": 32,
+      "sha256": "09ab697f1e5470b58df27e4a3a68a7089f8738a141b5f14816f5c79c37ae9faa"
+    },
+    "mathematics/matrices/equations.jsonl": {
+      "bytes": 1842,
+      "records": 6,
+      "sha256": "89c988eee8dee3b8cc6fc989a1cb58204393830aefe8d05cf5e55b0ca0943fd0"
+    },
+    "mathematics/number_theory/equations.jsonl": {
+      "bytes": 1613,
+      "records": 6,
+      "sha256": "a883cd581eb23f124966417d9a548fc38046c08f1943968cdd3e9ab4ced0ba4b"
+    },
+    "mathematics/probability/equations.jsonl": {
+      "bytes": 3837,
+      "records": 15,
+      "sha256": "436acc13b83bea3cc847f55e6ec370b0b622fe0cbf927fcd409f4d17bf001869"
+    },
+    "mathematics/sequences/equations.jsonl": {
+      "bytes": 2205,
+      "records": 9,
+      "sha256": "d0f6e34d7486af5bc8e1da00b609c06f959d384a8375099fc4fcff08dcb0a66c"
+    },
+    "mathematics/statistics/equations.jsonl": {
+      "bytes": 4020,
+      "records": 15,
+      "sha256": "5dea884b099fb449402833eb6eaae24269290cfb2a3d8226e68f597f5e6af811"
+    },
+    "mathematics/trigonometry/equations.jsonl": {
+      "bytes": 4815,
+      "records": 18,
+      "sha256": "46703dc963e3ad09f73c010c39f82c23dac95ba43e587f79ed253aa3cc56a09b"
+    },
+    "mathematics/vectors/equations.jsonl": {
+      "bytes": 2311,
+      "records": 9,
+      "sha256": "22efe4a5f126b7f3fc14ad614de28049752ff278b0de9f53fcef4d2158b6c036"
+    },
+    "physics/atomic_physics/equations.jsonl": {
+      "bytes": 1103,
+      "records": 4,
+      "sha256": "47b6bf1f490b69de69d0ab1135daae2498e1ff8f3bad17a37d99ae37a4c5fa54"
+    },
+    "physics/electricity/equations.jsonl": {
+      "bytes": 4984,
+      "records": 20,
+      "sha256": "ff2a0c9f396c13454ecb2c38fd100ba0a008d749995994f1198b2587b11d1393"
+    },
+    "physics/electromagnetism/equations.jsonl": {
+      "bytes": 2781,
+      "records": 10,
+      "sha256": "5eb52fab21628255f3f5232d2ed271e28a80113c692abcbba88b82b69a99c6f0"
+    },
+    "physics/gravitation/equations.jsonl": {
+      "bytes": 1500,
+      "records": 6,
+      "sha256": "811af9325204f46c0ec8ed5e2346f1033f46cda1c7c28233d6266505f6dd19db"
+    },
+    "physics/magnetism/equations.jsonl": {
+      "bytes": 1503,
+      "records": 6,
+      "sha256": "41299988ba941909ecfed78722fe467cd70d49f35476310c9ffe975406d3203d"
+    },
+    "physics/mechanics/equations.jsonl": {
+      "bytes": 7281,
+      "records": 30,
+      "sha256": "7852fc1650da2aab318cdce2b55aa3c29aced18b393b7eed1b30df1ecef5b390"
+    },
+    "physics/modern_physics/equations.jsonl": {
+      "bytes": 1339,
+      "records": 5,
+      "sha256": "77e3dd230910b096350662033fc4c2ac216bfbf507958d3bf104ba2f9cda109d"
+    },
+    "physics/nuclear_physics/equations.jsonl": {
+      "bytes": 2455,
+      "records": 9,
+      "sha256": "066e61b9fe93d1f57d91ee8eafa5b2c87969d51621813a7fa09e3b7b4c0392cd"
+    },
+    "physics/optics/equations.jsonl": {
+      "bytes": 2861,
+      "records": 11,
+      "sha256": "7091dec0e77802f440e80764ef36e95cd2483d894b1e2f624685a8201ba56a04"
+    },
+    "physics/properties_of_matter/equations.jsonl": {
+      "bytes": 2677,
+      "records": 10,
+      "sha256": "bbad5117cc8ec89792217f9a9429af663ac87fc6efe2e5f5d009f8375e443d05"
+    },
+    "physics/sound/equations.jsonl": {
+      "bytes": 964,
+      "records": 4,
+      "sha256": "15dd79be0d12b67499d6e0614caf3d01bde0b48bc080d42b714232260c5a29b2"
+    },
+    "physics/thermodynamics/equations.jsonl": {
+      "bytes": 3236,
+      "records": 12,
+      "sha256": "b291c8b17e004cba9e584604bd6d5c756f2f716383210f68d2cc51730f5980a0"
+    },
+    "physics/waves/equations.jsonl": {
+      "bytes": 2466,
+      "records": 10,
+      "sha256": "45d4fe528213885b782d6dd63aff63fdb24fa045984bab913686051f9e59dfd9"
+    },
+    "pre_research_baseline.json": {
+      "bytes": 13623,
+      "sha256": "7968f0a47deae1a246b0d54a01dbe9d87c776aa54a4f4acce699088a90842534"
+    },
+    "research/mathematics/algebraic_geometry/equations.jsonl": {
+      "bytes": 179276,
+      "records": 360,
+      "sha256": "97f82251a1d4cd83230df441f16dc36c09304a2407f3a9e7d59deb73936c87c9"
+    },
+    "research/mathematics/algebraic_topology/equations.jsonl": {
+      "bytes": 69926,
+      "records": 132,
+      "sha256": "347b96f0b36fec4361b83cd26b1e04680a9d338922fec36ab5f724d59732789b"
+    },
+    "research/mathematics/calculus_of_variations/equations.jsonl": {
+      "bytes": 2501,
+      "records": 6,
+      "sha256": "d0b24a2f62981a70dd70794d6f0193e23441c91a61af6d8981d067e4c95e78ed"
+    },
+    "research/mathematics/category_homological_algebra/equations.jsonl": {
+      "bytes": 148355,
+      "records": 260,
+      "sha256": "c28a394197d6f0ca27c6d7026d3f33fd130a26144123814dd00e425394a4e5d6"
+    },
+    "research/mathematics/differential_riemannian_geometry/equations.jsonl": {
+      "bytes": 72001,
+      "records": 139,
+      "sha256": "f2be09257f0d02b41dd8bca68b1d2f86b10355813bfcb6c8bbb4c9ff7d1e4ef1"
+    },
+    "research/mathematics/differential_topology/equations.jsonl": {
+      "bytes": 970,
+      "records": 2,
+      "sha256": "23f1f6f0728f019e345ef5a11eade594e24c7d7da236ee3045d8ba30bbaf5254"
+    },
+    "research/mathematics/dynamical_systems/equations.jsonl": {
+      "bytes": 21924,
+      "records": 50,
+      "sha256": "4310575d1216d6253da7a103896625d4c9085263e26faab102de45981c6ade87"
+    },
+    "research/mathematics/functional_analysis/equations.jsonl": {
+      "bytes": 60210,
+      "records": 119,
+      "sha256": "b407bdbf0e5656e426aa101d4db6048729359f9ec79cc8cb625fc875d9f0b56b"
+    },
+    "research/mathematics/lie_theory/equations.jsonl": {
+      "bytes": 51008,
+      "records": 99,
+      "sha256": "b972439f51681014962c5b43d015cd27afd48c219c62297c690746277215d638"
+    },
+    "research/mathematics/mathematical_physics/equations.jsonl": {
+      "bytes": 147056,
+      "records": 299,
+      "sha256": "4e8ef1c165f95a7c58e9da0daaea12339624579ccfcbc7a51d68872b630e55b4"
+    },
+    "research/mathematics/number_theory/equations.jsonl": {
+      "bytes": 43632,
+      "records": 100,
+      "sha256": "3eb644dc8a6761e95c811f8c246f4fdc56b98b5e547f7bf848279c7609ddf4ca"
+    },
+    "research/mathematics/numerical_mathematics/equations.jsonl": {
+      "bytes": 20705,
+      "records": 50,
+      "sha256": "2a7f83e3674af5de9ac48d3d7100290728ab461860054c5bbb997ab6185789c5"
+    },
+    "research/mathematics/operator_theory/equations.jsonl": {
+      "bytes": 44200,
+      "records": 80,
+      "sha256": "6f68020c637b785c135f8ef4e34f0603de328a6b0552dcece605a59a996ae6b5"
+    },
+    "research/mathematics/optimization_control/equations.jsonl": {
+      "bytes": 2834,
+      "records": 7,
+      "sha256": "c367cba8a94f9811b3b233ea18d90ad1e9a0ce082127db3105e5ce4cea7e4fe3"
+    },
+    "research/mathematics/partial_differential_equations/equations.jsonl": {
+      "bytes": 2663,
+      "records": 6,
+      "sha256": "5130caf96ce2a07568b0a1dcb1827191510a7736310a8a9d0c3f4a1af15385ad"
+    },
+    "research/mathematics/probability_stochastic_analysis/equations.jsonl": {
+      "bytes": 19163,
+      "records": 37,
+      "sha256": "9500f5c4f7e78c8b202b81426cb30f50ec7cbc31e1a2ad7a3dfeb3b2f20f54d4"
+    },
+    "research/mathematics/representation_theory/equations.jsonl": {
+      "bytes": 47555,
+      "records": 85,
+      "sha256": "37b85e5627bc8067f2783e3418b57c28a2989990768693b23f1fa82c251f97a3"
+    },
+    "research/mathematics/special_functions/equations.jsonl": {
+      "bytes": 572452,
+      "records": 1197,
+      "sha256": "41fd2039fc3320d5a74bbcb9285194747ffcf20bd146bf26462f42f6498f8d33"
+    },
+    "research/mathematics/symplectic_complex_geometry/equations.jsonl": {
+      "bytes": 2233,
+      "records": 5,
+      "sha256": "f3a41ca3858209b7db0caf864ea8cc15e42fbc442226851ba6a89f006cbbab23"
+    },
+    "research/physics/astrophysics/equations.jsonl": {
+      "bytes": 201071,
+      "records": 300,
+      "sha256": "00d9abfaa6f3ced1437b6e52464c765e0bbafe1399353eb0f243af73a86d0ad6"
+    },
+    "research/physics/condensed_matter/equations.jsonl": {
+      "bytes": 3375,
+      "records": 6,
+      "sha256": "0bd7138b4cab8a28d75c405e268a44daf13ea2c916d2372aafec44db0726fdb3"
+    },
+    "research/physics/cosmology/equations.jsonl": {
+      "bytes": 75036,
+      "records": 90,
+      "sha256": "d5cc34e7255005b34fc15d0290654399cabd0eccc348f5da10f84722aa3453a9"
+    },
+    "research/physics/fluid_physics/equations.jsonl": {
+      "bytes": 99928,
+      "records": 150,
+      "sha256": "2a1fff227d295c0b48e5250a289e2e14cc154743239c162d5d249ffdfc9dab64"
+    },
+    "research/physics/gauge_theory/equations.jsonl": {
+      "bytes": 60535,
+      "records": 80,
+      "sha256": "2727d79f4b751d4dd3467fbe4987684d1e893025d2b4a017830758039c796d3a"
+    },
+    "research/physics/general_relativity/equations.jsonl": {
+      "bytes": 13927,
+      "records": 21,
+      "sha256": "a3c737628d0e367fb3a22e2133e18897da3bf0cdf097e931a5fee517097d28c8"
+    },
+    "research/physics/many_body_physics/equations.jsonl": {
+      "bytes": 298895,
+      "records": 400,
+      "sha256": "b0ff7e07833a9e731e6d07d9825a06488703ffad413d744d5373a464bb2e0dbd"
+    },
+    "research/physics/nonlinear_physics/equations.jsonl": {
+      "bytes": 32437,
+      "records": 50,
+      "sha256": "75db03d3eff29c63083355d5532c3b1e21bb9265de1b5b399e98be4e61ce5a17"
+    },
+    "research/physics/nuclear_physics/equations.jsonl": {
+      "bytes": 73297,
+      "records": 89,
+      "sha256": "e609b12f27e99be945eae4527685da3199ab05650fca2dcdb6c41d93ef22dfb5"
+    },
+    "research/physics/plasma_physics/equations.jsonl": {
+      "bytes": 190067,
+      "records": 300,
+      "sha256": "d2c161fb117d1f2856d724938b0ec471539a70abb95e13e7ee2ed3ffb1f6e0a8"
+    },
+    "research/physics/quantum_field_theory/equations.jsonl": {
+      "bytes": 375358,
+      "records": 470,
+      "sha256": "c77675ac15554cb06f6d3e4a147be52a4cc352849fd38880756ed29d7e150fc4"
+    },
+    "research/physics/quantum_information_optics/equations.jsonl": {
+      "bytes": 125626,
+      "records": 176,
+      "sha256": "4b84136a6ff6c4e165b3ff71efd3e4d96c374ff58ffbb4dfc539250e69e6ac76"
+    },
+    "research/physics/quantum_mechanics/equations.jsonl": {
+      "bytes": 57950,
+      "records": 80,
+      "sha256": "a8cc25156c78b48ebf4ecc160f0adab51c45bfbd1ddb254a087df3e520577f4c"
+    },
+    "research/physics/standard_model_qcd/equations.jsonl": {
+      "bytes": 283961,
+      "records": 330,
+      "sha256": "730e92f7dbf3b9bc8e404cfecb717a43929e484a6c105459244673f9283f7737"
+    },
+    "research/physics/statistical_mechanics/equations.jsonl": {
+      "bytes": 11491,
+      "records": 16,
+      "sha256": "367a5a30175338d34ad4cbc82bcca7193771108f3f3e78df61b74842b82a1dcc"
+    },
+    "research/physics/string_quantum_gravity/equations.jsonl": {
+      "bytes": 4879,
+      "records": 9,
+      "sha256": "b0bfeaa24547fcfafcb726d93b94ac69102f92a5e2f7613a740bd9db331c1488"
+    },
+    "research_coverage.json": {
+      "bytes": 6890,
+      "sha256": "654d189d054f999c8c8f1f747bcde0c40c8ac8f977619043a806f52aa915e4f0"
+    },
+    "schema.json": {
+      "bytes": 3762,
+      "sha256": "8d59d99baa9411c782b1734a1cd4f76eb646d5c39f9f1737835ce830a165a829"
+    },
+    "sources.json": {
+      "bytes": 22179,
+      "sha256": "e2cd26d58a1b80102b9a7a737c709ad1101ba5deac1506dd765ea940f15398ae"
+    },
+    "undergraduate/mathematics/abstract_algebra/equations.jsonl": {
+      "bytes": 4361,
+      "records": 16,
+      "sha256": "3509a2f1c1ac9af09459e8a935476772c94e7aa137c3c570209a018418a766be"
+    },
+    "undergraduate/mathematics/algebra/equations.jsonl": {
+      "bytes": 3229,
+      "records": 11,
+      "sha256": "50855a65c393428ab217e63056ddbc6355b2512562b4881a25fd678890aa7f26"
+    },
+    "undergraduate/mathematics/complex_analysis/equations.jsonl": {
+      "bytes": 4905,
+      "records": 16,
+      "sha256": "548b92f6174fa8cd13a0593698b80f344eb32414499099eab58d1a0092b1d85c"
+    },
+    "undergraduate/mathematics/differential_equations/equations.jsonl": {
+      "bytes": 5057,
+      "records": 18,
+      "sha256": "d9fb753e69e471b2665d6b5ce1bdcc7ef7ec0324330d3b3138bbb848afe75104"
+    },
+    "undergraduate/mathematics/discrete_mathematics/equations.jsonl": {
+      "bytes": 4098,
+      "records": 14,
+      "sha256": "7fb08506336ee44181785840248ed522f9208ea4ee4797bb87806e59d3c4cf7b"
+    },
+    "undergraduate/mathematics/linear_algebra/equations.jsonl": {
+      "bytes": 5906,
+      "records": 22,
+      "sha256": "a19416d655c382e30cf58bcb160334d9308e95a76a41553932ba2f83dbb3d759"
+    },
+    "undergraduate/mathematics/multivariable_calculus/equations.jsonl": {
+      "bytes": 5995,
+      "records": 19,
+      "sha256": "0fd652cb638776619225bd60593372151060f6ff12c8228cf3ae48b867267644"
+    },
+    "undergraduate/mathematics/number_theory/equations.jsonl": {
+      "bytes": 4051,
+      "records": 14,
+      "sha256": "e8f0245ad1e8d9a17b59369bab623f960c203d614a0f4cb0b71ead684595a837"
+    },
+    "undergraduate/mathematics/numerical_mathematics/equations.jsonl": {
+      "bytes": 5496,
+      "records": 18,
+      "sha256": "6189bf9b153955e83100cb4ece61961576a1f3c7ceec144236db73bfc7aaa36f"
+    },
+    "undergraduate/mathematics/optimization/equations.jsonl": {
+      "bytes": 4636,
+      "records": 16,
+      "sha256": "836d26e6e9310477a94d4e07a9223ad8e69d9836c4be0a2724b5db019c1f1003"
+    },
+    "undergraduate/mathematics/probability_statistics/equations.jsonl": {
+      "bytes": 6788,
+      "records": 22,
+      "sha256": "c0b1ebaa21f3a3d259fe9783a2f70325a274ffc992b37f6df41552b19b4cc25a"
+    },
+    "undergraduate/mathematics/real_analysis/equations.jsonl": {
+      "bytes": 4401,
+      "records": 14,
+      "sha256": "740068f81bb554506366bf6a72b0a79200715396a66c5645ba0b012ec6dbae39"
+    },
+    "undergraduate/physics/classical_mechanics/equations.jsonl": {
+      "bytes": 6081,
+      "records": 20,
+      "sha256": "95b36433120ee2f3608ae870b326dc6655889e4bb44951254ca5c8bf7d552251"
+    },
+    "undergraduate/physics/electromagnetism/equations.jsonl": {
+      "bytes": 6681,
+      "records": 22,
+      "sha256": "b6dbdcc962b954c0d89df40f5fc833ea7e175fc9bee3d1e009f4749b0baaf21e"
+    },
+    "undergraduate/physics/fluid_mechanics/equations.jsonl": {
+      "bytes": 5564,
+      "records": 18,
+      "sha256": "3bfdbba147ae85acec9e6d89420ed8032ad0ab8c7410a0f1fa9333f0ece8ea94"
+    },
+    "undergraduate/physics/mathematical_physics/equations.jsonl": {
+      "bytes": 4051,
+      "records": 14,
+      "sha256": "3a9273046ec035785dd5679e17060cf83168b8c2e322ce3ec62238cd12f71794"
+    },
+    "undergraduate/physics/optics/equations.jsonl": {
+      "bytes": 4256,
+      "records": 15,
+      "sha256": "86d37c7093c298f8b8ef745a3bf2a8a688ee1076430c0e4386a66f60664b64fb"
+    },
+    "undergraduate/physics/quantum_mechanics/equations.jsonl": {
+      "bytes": 6789,
+      "records": 22,
+      "sha256": "371460b83e911e2c33c83951bcab448b3e30e886095cda375f9b4c5b3390e0d8"
+    },
+    "undergraduate/physics/special_relativity/equations.jsonl": {
+      "bytes": 4049,
+      "records": 15,
+      "sha256": "19bc599733d1e75f6332696b240521a229b8ef002c1f1ad754a35f350ee8ae01"
+    },
+    "undergraduate/physics/statistical_mechanics/equations.jsonl": {
+      "bytes": 4656,
+      "records": 16,
+      "sha256": "1f320cad0f118b535baeb15be9ce35b7a9d71739a2dc0fc747241e6838cf06c2"
+    },
+    "undergraduate/physics/thermodynamics/equations.jsonl": {
+      "bytes": 4227,
+      "records": 16,
+      "sha256": "03bdcd90790276a8a2ebd99d42ab2f6c0e6f1355340653b44127248749625651"
+    }
+  },
+  "generation_date": "2026-10-05",
+  "hash_algorithm": "sha256",
+  "inert_data_policy": "Formula strings are opaque LaTeX-compatible text and are never evaluated, imported, substituted, solved, selected for reasoning, or promoted from discovery.",
+  "k12_baseline": {
+    "baseline_name": "k12-v1.0.0",
+    "file": "k12_baseline.json",
+    "ordered_data_hash_digest": "aeb48c1ed39069e7109eabfac485e7a2ba049e795d539a81eafb608b538491cc",
+    "original_corpus_version": "1.0.0",
+    "original_manifest_sha256": "eeed7722a3e15fa4338a581c3dc8ff31f8a61d4b1c72086a7f79e92b8e6c2a11",
+    "record_count": 366
+  },
+  "level_counts": {
+    "graduate": 296,
+    "k12": 366,
+    "research": 5600,
+    "undergraduate": 358
+  },
+  "level_domain_counts": {
+    "graduate": {
+      "mathematics": 154,
+      "physics": 142
+    },
+    "k12": {
+      "mathematics": 229,
+      "physics": 137
+    },
+    "research": {
+      "mathematics": 3033,
+      "physics": 2567
+    },
+    "undergraduate": {
+      "mathematics": 200,
+      "physics": 158
+    }
+  },
+  "mathematics_count": 3616,
+  "physics_count": 3004,
+  "pre_research_baseline": {
+    "baseline_name": "pre-research-corpus-v2.0.0",
+    "file": "pre_research_baseline.json",
+    "file_count": 65,
+    "ordered_data_hash_digest": "1040af44eb93fab3de307341e6172f4edc1afc6a0aef269c2ae55563bf99de1e",
+    "original_corpus_version": "2.0.0",
+    "original_manifest_sha256": "f5ac95b289d073321687361f7928865b4fe814b99765a56af43c92887fbc77d3",
+    "record_count": 1020
+  },
+  "record_count": 6620,
+  "research_coverage": {
+    "coverage_version": "1.0.0",
+    "file": "research_coverage.json",
+    "status_counts": {
+      "covered": 26,
+      "partial": 9
+    }
+  },
+  "research_domain_counts": {
+    "mathematics": 3033,
+    "physics": 2567
+  },
+  "research_record_count": 5600,
+  "research_relation_type_counts": {
+    "asymptotic_relation": 244,
+    "commutation_relation": 332,
+    "definition": 191,
+    "differential_system": 15,
+    "equation": 2608,
+    "evolution_equation": 601,
+    "inequality": 234,
+    "integral_relation": 490,
+    "recurrence": 502,
+    "transformation": 383
+  },
+  "research_source_count": 19,
+  "research_status_counts": {
+    "conjectural": 0,
+    "established": 3292,
+    "model_dependent": 2308
+  },
+  "research_unit_system_counts": {
+    "dimensionless": 50,
+    "natural": 979,
+    "not_applicable": 3033,
+    "source_defined": 1538
+  },
+  "schema_version": "1.2.0",
+  "scope": "Additive K-12, undergraduate, graduate, and inert research mathematics/physics trusted reference data.",
+  "source_metadata": {
+    "file": "sources.json",
+    "metadata_version": "3.0.0",
+    "orphan_source_count": 1,
+    "orphan_source_ids": [
+      "CN-MOE-DAILY-REVISION-2025"
+    ],
+    "source_count": 56,
+    "source_ids": [
+      "CARROLL-GR",
+      "CN-MOE-COMP-MATH-2022",
+      "CN-MOE-COMP-PHYS-2022",
+      "CN-MOE-DAILY-REVISION-2025",
+      "CN-MOE-HIGH-MATH-2020",
+      "CN-MOE-HIGH-PHYS-2020",
+      "FITZPATRICK-PLASMA",
+      "HATCHER-ALGEBRAIC-TOPOLOGY",
+      "KEIO-QUANTUM-COMMS",
+      "LEE-SMOOTH-MANIFOLDS",
+      "MIT-15070-STOCHASTIC",
+      "MIT-1803-DE",
+      "MIT-1804-COMPLEX",
+      "MIT-1805-PROBSTAT",
+      "MIT-1806-LA",
+      "MIT-18100A-ANALYSIS",
+      "MIT-18102-FA",
+      "MIT-18125-MEASURE",
+      "MIT-18330-NUMERICAL",
+      "MIT-18703-ALGEBRA",
+      "MIT-18745-LIE",
+      "MIT-18781-NUMBER",
+      "MIT-18950-GEOMETRY",
+      "MIT-18966-SYMPLECTIC",
+      "MIT-220-FLUID",
+      "MIT-271-OPTICS",
+      "MIT-6042-DISCRETE",
+      "MIT-6453-QOPTICS",
+      "MIT-802-EM",
+      "MIT-804-QUANTUM",
+      "MIT-809-MECHANICS",
+      "MIT-NUCLEAR-NOTES",
+      "MSU-STELLAR",
+      "NIST-DLMF",
+      "NRL-PLASMA-2023",
+      "NUCLEAR-TALENT-MANYBODY",
+      "OPENSTAX-CALC3",
+      "OPENSTAX-COLLEGE-ALGEBRA",
+      "OPENSTAX-UPHYS1",
+      "OPENSTAX-UPHYS2",
+      "OPENSTAX-UPHYS3",
+      "RESTREPO-QFT-SM",
+      "SCHULLER-GEOMETRIC",
+      "SCHULLER-QUANTUM",
+      "STACKS-PROJECT",
+      "STANFORD-CONVEX",
+      "TONG-GAUGE",
+      "TONG-GR",
+      "TONG-QFT",
+      "TONG-SFT",
+      "TONG-SOLIDSTATE",
+      "TONG-STRING",
+      "UCDAVIS-PDE-HUNTER",
+      "UOFT-QFT-JOOT",
+      "WILTSHIRE-GR",
+      "YACHAY-NONLINEAR"
+    ],
+    "used_source_count": 55
+  },
+  "topic_count": 100,
+  "topic_counts": {
+    "graduate/mathematics/advanced_pde": 18,
+    "graduate/mathematics/advanced_probability": 18,
+    "graduate/mathematics/algebraic_geometry": 14,
+    "graduate/mathematics/algebraic_topology": 14,
+    "graduate/mathematics/differential_geometry": 15,
+    "graduate/mathematics/differential_topology": 12,
+    "graduate/mathematics/functional_analysis": 16,
+    "graduate/mathematics/lie_theory": 16,
+    "graduate/mathematics/measure_theory": 16,
+    "graduate/mathematics/riemannian_geometry": 15,
+    "graduate/physics/advanced_optics": 18,
+    "graduate/physics/advanced_statistical_mechanics": 18,
+    "graduate/physics/condensed_matter": 21,
+    "graduate/physics/gauge_theory": 18,
+    "graduate/physics/general_relativity": 24,
+    "graduate/physics/plasma_physics": 20,
+    "graduate/physics/quantum_field_theory": 23,
+    "mathematics/algebra": 35,
+    "mathematics/arithmetic": 30,
+    "mathematics/calculus": 16,
+    "mathematics/coordinate_geometry": 16,
+    "mathematics/discrete_mathematics": 6,
+    "mathematics/functions": 16,
+    "mathematics/geometry": 32,
+    "mathematics/matrices": 6,
+    "mathematics/number_theory": 6,
+    "mathematics/probability": 15,
+    "mathematics/sequences": 9,
+    "mathematics/statistics": 15,
+    "mathematics/trigonometry": 18,
+    "mathematics/vectors": 9,
+    "physics/atomic_physics": 4,
+    "physics/electricity": 20,
+    "physics/electromagnetism": 10,
+    "physics/gravitation": 6,
+    "physics/magnetism": 6,
+    "physics/mechanics": 30,
+    "physics/modern_physics": 5,
+    "physics/nuclear_physics": 9,
+    "physics/optics": 11,
+    "physics/properties_of_matter": 10,
+    "physics/sound": 4,
+    "physics/thermodynamics": 12,
+    "physics/waves": 10,
+    "research/mathematics/algebraic_geometry": 360,
+    "research/mathematics/algebraic_topology": 132,
+    "research/mathematics/calculus_of_variations": 6,
+    "research/mathematics/category_homological_algebra": 260,
+    "research/mathematics/differential_riemannian_geometry": 139,
+    "research/mathematics/differential_topology": 2,
+    "research/mathematics/dynamical_systems": 50,
+    "research/mathematics/functional_analysis": 119,
+    "research/mathematics/lie_theory": 99,
+    "research/mathematics/mathematical_physics": 299,
+    "research/mathematics/number_theory": 100,
+    "research/mathematics/numerical_mathematics": 50,
+    "research/mathematics/operator_theory": 80,
+    "research/mathematics/optimization_control": 7,
+    "research/mathematics/partial_differential_equations": 6,
+    "research/mathematics/probability_stochastic_analysis": 37,
+    "research/mathematics/representation_theory": 85,
+    "research/mathematics/special_functions": 1197,
+    "research/mathematics/symplectic_complex_geometry": 5,
+    "research/physics/astrophysics": 300,
+    "research/physics/condensed_matter": 6,
+    "research/physics/cosmology": 90,
+    "research/physics/fluid_physics": 150,
+    "research/physics/gauge_theory": 80,
+    "research/physics/general_relativity": 21,
+    "research/physics/many_body_physics": 400,
+    "research/physics/nonlinear_physics": 50,
+    "research/physics/nuclear_physics": 89,
+    "research/physics/plasma_physics": 300,
+    "research/physics/quantum_field_theory": 470,
+    "research/physics/quantum_information_optics": 176,
+    "research/physics/quantum_mechanics": 80,
+    "research/physics/standard_model_qcd": 330,
+    "research/physics/statistical_mechanics": 16,
+    "research/physics/string_quantum_gravity": 9,
+    "undergraduate/mathematics/abstract_algebra": 16,
+    "undergraduate/mathematics/algebra": 11,
+    "undergraduate/mathematics/complex_analysis": 16,
+    "undergraduate/mathematics/differential_equations": 18,
+    "undergraduate/mathematics/discrete_mathematics": 14,
+    "undergraduate/mathematics/linear_algebra": 22,
+    "undergraduate/mathematics/multivariable_calculus": 19,
+    "undergraduate/mathematics/number_theory": 14,
+    "undergraduate/mathematics/numerical_mathematics": 18,
+    "undergraduate/mathematics/optimization": 16,
+    "undergraduate/mathematics/probability_statistics": 22,
+    "undergraduate/mathematics/real_analysis": 14,
+    "undergraduate/physics/classical_mechanics": 20,
+    "undergraduate/physics/electromagnetism": 22,
+    "undergraduate/physics/fluid_mechanics": 18,
+    "undergraduate/physics/mathematical_physics": 14,
+    "undergraduate/physics/optics": 15,
+    "undergraduate/physics/quantum_mechanics": 22,
+    "undergraduate/physics/special_relativity": 15,
+    "undergraduate/physics/statistical_mechanics": 16,
+    "undergraduate/physics/thermodynamics": 16
+  }
+}

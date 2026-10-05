@@ -1,0 +1,673 @@
+{
+  "coverage_note": "Research coverage is broad and explicitly non-exhaustive. Formula-only records retain pinned source locators; no exposition or derivations are copied.",
+  "currency_note": "The 2025 daily-revision notice was checked. Version 1.0.0 conservatively includes only stable core or explicitly labelled senior-high elective relations also covered by the official 2020 subject standards.",
+  "metadata_version": "3.0.0",
+  "retrieved_on": "2026-10-05",
+  "scope_policy": "Authoritative course and scientific references set scope; records contain independently checked canonical relations only, not copied lessons, proofs, exercises, or textbook prose.",
+  "sources": [
+    {
+      "authority": "Sean M. Carroll",
+      "id": "CARROLL-GR",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "general_relativity"
+      ],
+      "title": "Lecture Notes on General Relativity",
+      "url": "https://arxiv.org/abs/gr-qc/9712019"
+    },
+    {
+      "authority": "Ministry of Education of the People’s Republic of China",
+      "document_number": "教材〔2022〕2号",
+      "id": "CN-MOE-COMP-MATH-2022",
+      "language": "zh-CN",
+      "publication_url": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
+      "scope": [
+        "early_primary",
+        "primary",
+        "lower_secondary"
+      ],
+      "title": "Compulsory Education Mathematics Curriculum Standard (2022 Edition)",
+      "url": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf"
+    },
+    {
+      "authority": "Ministry of Education of the People’s Republic of China",
+      "document_number": "教材〔2022〕2号",
+      "id": "CN-MOE-COMP-PHYS-2022",
+      "language": "zh-CN",
+      "publication_url": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
+      "scope": [
+        "lower_secondary"
+      ],
+      "title": "Compulsory Education Physics Curriculum Standard (2022 Edition)",
+      "url": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582357585169.pdf"
+    },
+    {
+      "authority": "Ministry of Education of the People’s Republic of China",
+      "document_number": "教材〔2025〕1号",
+      "id": "CN-MOE-DAILY-REVISION-2025",
+      "language": "zh-CN",
+      "note": "Official provincial education-department notice confirming the Ministry document and 2025 daily revisions; not used as a formula text source.",
+      "scope": [
+        "currency_check"
+      ],
+      "title": "Notice on Daily Revisions of Primary, Secondary, and Senior High School Curriculum Plans and Standards",
+      "url": "https://jyt.guizhou.gov.cn/ywdt/gzdt/202601/t20260119_89309150.html"
+    },
+    {
+      "authority": "Ministry of Education of the People’s Republic of China",
+      "document_number": "教材〔2020〕3号",
+      "id": "CN-MOE-HIGH-MATH-2020",
+      "language": "zh-CN",
+      "publication_url": "http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html",
+      "scope": [
+        "senior_high",
+        "senior_high_elective"
+      ],
+      "title": "General Senior High School Mathematics Curriculum Standard (2017 Edition, 2020 Revision)",
+      "url": "http://www.moe.gov.cn/srcsite/A26/s8001/202006/W020200603315372317586.zip"
+    },
+    {
+      "authority": "Ministry of Education of the People’s Republic of China",
+      "document_number": "教材〔2020〕3号",
+      "id": "CN-MOE-HIGH-PHYS-2020",
+      "language": "zh-CN",
+      "publication_url": "http://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html",
+      "scope": [
+        "senior_high",
+        "senior_high_elective"
+      ],
+      "title": "General Senior High School Physics Curriculum Standard (2017 Edition, 2020 Revision)",
+      "url": "http://www.moe.gov.cn/srcsite/A26/s8001/202006/W020200603315372317586.zip"
+    },
+    {
+      "authority": "Richard Fitzpatrick, University of Texas at Austin",
+      "id": "FITZPATRICK-PLASMA",
+      "language": "en",
+      "scope": [
+        "research",
+        "plasma_physics",
+        "fluid_physics",
+        "magnetohydrodynamics"
+      ],
+      "snapshot_commit": "f062a7b117ffae2367f715b8f06289c1eb647872",
+      "title": "Graduate Plasma Physics lecture notes",
+      "url": "https://github.com/noblepa/380"
+    },
+    {
+      "authority": "Allen Hatcher, Cornell University",
+      "id": "HATCHER-ALGEBRAIC-TOPOLOGY",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "algebraic_topology"
+      ],
+      "title": "Algebraic Topology",
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html"
+    },
+    {
+      "authority": "Keio University AQUA group and Japan Q-LEAP Quantum Academy",
+      "id": "KEIO-QUANTUM-COMMS",
+      "language": "en",
+      "scope": [
+        "research",
+        "quantum_information",
+        "quantum_optics"
+      ],
+      "snapshot_commit": "163bdbac1db1e5734db0359c2e936d1bb51b1072",
+      "title": "Overview of Quantum Communications",
+      "url": "https://github.com/sfc-aqua/Overview-of-Quantum-Communications-E"
+    },
+    {
+      "authority": "John M. Lee; Springer",
+      "id": "LEE-SMOOTH-MANIFOLDS",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "differential_topology",
+        "differential_geometry"
+      ],
+      "title": "Introduction to Smooth Manifolds",
+      "url": "https://link.springer.com/book/10.1007/978-1-4419-9982-5"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-15070-STOCHASTIC",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "advanced_probability"
+      ],
+      "title": "15.070J Advanced Stochastic Processes",
+      "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-1803-DE",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "differential_equations"
+      ],
+      "title": "18.03 Differential Equations",
+      "url": "https://ocw.mit.edu/courses/18-03-differential-equations-spring-2010/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-1804-COMPLEX",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "complex_analysis"
+      ],
+      "title": "18.04 Complex Variables with Applications",
+      "url": "https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-1805-PROBSTAT",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "probability_statistics"
+      ],
+      "title": "18.05 Introduction to Probability and Statistics",
+      "url": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-1806-LA",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "linear_algebra"
+      ],
+      "title": "18.06 Linear Algebra",
+      "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18100A-ANALYSIS",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "real_analysis"
+      ],
+      "title": "18.100A Real Analysis",
+      "url": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18102-FA",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "functional_analysis"
+      ],
+      "title": "18.102 Introduction to Functional Analysis",
+      "url": "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18125-MEASURE",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "measure_theory"
+      ],
+      "title": "18.125 Measure and Integration",
+      "url": "https://ocw.mit.edu/courses/18-125-measure-and-integration-fall-2003/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18330-NUMERICAL",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "numerical_mathematics"
+      ],
+      "title": "18.330 Introduction to Numerical Analysis",
+      "url": "https://ocw.mit.edu/courses/18-330-introduction-to-numerical-analysis-spring-2012/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18703-ALGEBRA",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "abstract_algebra"
+      ],
+      "title": "18.703 Modern Algebra",
+      "url": "https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18745-LIE",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "lie_theory"
+      ],
+      "title": "18.745 Lie Groups and Lie Algebras I",
+      "url": "https://ocw.mit.edu/courses/18-745-lie-groups-and-lie-algebras-i-fall-2020/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18781-NUMBER",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "number_theory"
+      ],
+      "title": "18.781 Theory of Numbers",
+      "url": "https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-18950-GEOMETRY",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "differential_geometry",
+        "riemannian_geometry"
+      ],
+      "title": "18.950 Differential Geometry",
+      "url": "https://ocw.mit.edu/courses/18-950-differential-geometry-fall-2008/"
+    },
+    {
+      "authority": "Denis Auroux and Kartik Venkatram, MIT OpenCourseWare",
+      "id": "MIT-18966-SYMPLECTIC",
+      "language": "en",
+      "scope": [
+        "research",
+        "symplectic_geometry",
+        "complex_geometry"
+      ],
+      "title": "18.966 Geometry of Manifolds: symplectic geometry lecture notes",
+      "url": "https://ocw.mit.edu/courses/18-966-geometry-of-manifolds-spring-2007/pages/lecture-notes/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-220-FLUID",
+      "language": "en",
+      "scope": [
+        "undergraduate_advanced",
+        "fluid_mechanics"
+      ],
+      "title": "2.20 Marine Hydrodynamics",
+      "url": "https://ocw.mit.edu/courses/2-20-marine-hydrodynamics-13-021-spring-2005/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-271-OPTICS",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "optics"
+      ],
+      "title": "2.71 Optics",
+      "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-6042-DISCRETE",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "discrete_mathematics"
+      ],
+      "title": "6.042J Mathematics for Computer Science",
+      "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-6453-QOPTICS",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "advanced_optics"
+      ],
+      "title": "6.453 Quantum Optical Communication",
+      "url": "https://ocw.mit.edu/courses/6-453-quantum-optical-communication-fall-2016/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-802-EM",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "electromagnetism"
+      ],
+      "title": "8.02 Electricity and Magnetism",
+      "url": "https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2019/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-804-QUANTUM",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "quantum_mechanics"
+      ],
+      "title": "8.04 Quantum Physics I",
+      "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/"
+    },
+    {
+      "authority": "MIT OpenCourseWare",
+      "id": "MIT-809-MECHANICS",
+      "language": "en",
+      "scope": [
+        "undergraduate_advanced",
+        "classical_mechanics"
+      ],
+      "title": "8.09 Classical Mechanics III",
+      "url": "https://ocw.mit.edu/courses/8-09-classical-mechanics-iii-fall-2014/"
+    },
+    {
+      "authority": "MIT Department of Nuclear Science and Engineering course-note contributors",
+      "id": "MIT-NUCLEAR-NOTES",
+      "language": "en",
+      "scope": [
+        "research",
+        "nuclear_physics"
+      ],
+      "snapshot_commit": "ca7fff104676f78746e32406041d46fe19640472",
+      "title": "MIT Nuclear Physics course materials",
+      "url": "https://github.com/lilulu/nuclear-physics-notes"
+    },
+    {
+      "authority": "Edward F. Brown, Michigan State University",
+      "id": "MSU-STELLAR",
+      "language": "en",
+      "scope": [
+        "research",
+        "astrophysics",
+        "stellar_physics"
+      ],
+      "snapshot_commit": "afecac238cf47482e8d566bd27b3f634fca4d5cb",
+      "title": "Graduate Stellar Astrophysics notes",
+      "url": "https://github.com/Open-Astrophysics-Bookshelf/stellar-physics-notes"
+    },
+    {
+      "authority": "National Institute of Standards and Technology",
+      "id": "NIST-DLMF",
+      "language": "en",
+      "scope": [
+        "undergraduate_advanced",
+        "graduate",
+        "mathematical_physics"
+      ],
+      "title": "Digital Library of Mathematical Functions",
+      "url": "https://dlmf.nist.gov/"
+    },
+    {
+      "audit_note": "The formulary predominantly tabulates Gaussian-cgs quantities. Corpus records labeled SI were independently converted and dimension-checked; no cgs numerical coefficient was relabeled as SI.",
+      "authority": "U.S. Naval Research Laboratory",
+      "id": "NRL-PLASMA-2023",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "plasma_physics"
+      ],
+      "title": "NRL Plasma Formulary 2023",
+      "url": "https://www.nrl.navy.mil/News-Media/Publications/nrl-plasma-formulary/"
+    },
+    {
+      "authority": "Morten Hjorth-Jensen and Nuclear TALENT instructors",
+      "id": "NUCLEAR-TALENT-MANYBODY",
+      "language": "en",
+      "scope": [
+        "research",
+        "many_body_physics",
+        "nuclear_physics"
+      ],
+      "snapshot_commit": "b49f8c4afed9145d643c93ef63a6e79fedc33ffe",
+      "title": "Nuclear TALENT Course 2: Many-Body Methods for Nuclear Physics",
+      "url": "https://github.com/ManyBodyPhysics/Course2ManyBodyMethods"
+    },
+    {
+      "authority": "OpenStax, Rice University",
+      "id": "OPENSTAX-CALC3",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "multivariable_calculus"
+      ],
+      "title": "OpenStax Calculus Volume 3",
+      "url": "https://openstax.org/details/books/calculus-volume-3"
+    },
+    {
+      "authority": "OpenStax, Rice University",
+      "id": "OPENSTAX-COLLEGE-ALGEBRA",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "algebra"
+      ],
+      "title": "OpenStax College Algebra 2e",
+      "url": "https://openstax.org/details/books/college-algebra-2e"
+    },
+    {
+      "authority": "OpenStax, Rice University",
+      "id": "OPENSTAX-UPHYS1",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "classical_mechanics",
+        "fluid_mechanics"
+      ],
+      "title": "University Physics Volume 1",
+      "url": "https://openstax.org/details/books/university-physics-volume-1"
+    },
+    {
+      "authority": "OpenStax, Rice University",
+      "id": "OPENSTAX-UPHYS2",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "thermodynamics",
+        "electromagnetism"
+      ],
+      "title": "University Physics Volume 2",
+      "url": "https://openstax.org/details/books/university-physics-volume-2"
+    },
+    {
+      "authority": "OpenStax, Rice University",
+      "id": "OPENSTAX-UPHYS3",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "optics",
+        "quantum_mechanics",
+        "special_relativity"
+      ],
+      "title": "University Physics Volume 3",
+      "url": "https://openstax.org/details/books/university-physics-volume-3"
+    },
+    {
+      "authority": "Diego Restrepo, Universidad de Antioquia",
+      "id": "RESTREPO-QFT-SM",
+      "language": "en",
+      "repository": "https://github.com/restrepo/standard-model-and-beyond",
+      "scope": [
+        "research",
+        "quantum_field_theory",
+        "standard_model",
+        "neutrino_physics"
+      ],
+      "snapshot_commit": "0fc70d51e23253657ae134eaba5f301ef48c171d",
+      "title": "Detailed Lecture Notes in Quantum Field Theory",
+      "url": "https://doi.org/10.5281/zenodo.3470180"
+    },
+    {
+      "authority": "Frederic P. Schuller; transcription by Simon Rea",
+      "id": "SCHULLER-GEOMETRIC",
+      "language": "en",
+      "scope": [
+        "research",
+        "differential_geometry",
+        "topology",
+        "lie_theory",
+        "representation_theory"
+      ],
+      "snapshot_commit": "d324cd4b94d424a2734aea4b13bc3c9139cb8f90",
+      "title": "Geometric Anatomy of Theoretical Physics lecture notes",
+      "url": "https://github.com/sreahw/schuller-geometric"
+    },
+    {
+      "authority": "Frederic P. Schuller; transcription by Simon Rea",
+      "id": "SCHULLER-QUANTUM",
+      "language": "en",
+      "scope": [
+        "research",
+        "functional_analysis",
+        "operator_theory",
+        "quantum_theory"
+      ],
+      "snapshot_commit": "aabdd400ec8a90d1071c04da388f1e68e5b7053e",
+      "title": "Quantum Theory lecture notes",
+      "url": "https://github.com/sreahw/schuller-quantum"
+    },
+    {
+      "authority": "The Stacks Project Authors",
+      "id": "STACKS-PROJECT",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "algebraic_geometry"
+      ],
+      "title": "The Stacks Project",
+      "url": "https://stacks.math.columbia.edu/"
+    },
+    {
+      "authority": "Stanford University",
+      "id": "STANFORD-CONVEX",
+      "language": "en",
+      "scope": [
+        "undergraduate",
+        "optimization"
+      ],
+      "title": "Convex Optimization",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/"
+    },
+    {
+      "audit_note": "Gauge-theory records state natural-unit and normalization conventions where needed.",
+      "authority": "David Tong, University of Cambridge",
+      "id": "TONG-GAUGE",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "gauge_theory"
+      ],
+      "title": "Lectures on Gauge Theory",
+      "url": "https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html"
+    },
+    {
+      "audit_note": "Curvature-sign and metric-signature conventions are retained in formula notation where needed.",
+      "authority": "David Tong, University of Cambridge",
+      "id": "TONG-GR",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "general_relativity"
+      ],
+      "title": "Lectures on General Relativity",
+      "url": "https://www.damtp.cam.ac.uk/user/tong/gr.html"
+    },
+    {
+      "audit_note": "Field-theory records state natural-unit conventions where applicable; SI dimensional checks are not imposed on those records.",
+      "authority": "David Tong, University of Cambridge",
+      "id": "TONG-QFT",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "quantum_field_theory"
+      ],
+      "title": "Lectures on Quantum Field Theory",
+      "url": "https://www.damtp.cam.ac.uk/user/tong/qft.htm"
+    },
+    {
+      "authority": "David Tong, University of Cambridge",
+      "id": "TONG-SFT",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "advanced_statistical_mechanics"
+      ],
+      "title": "Lectures on Statistical Field Theory",
+      "url": "https://www.damtp.cam.ac.uk/user/tong/sft/"
+    },
+    {
+      "authority": "David Tong, University of Cambridge",
+      "id": "TONG-SOLIDSTATE",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "condensed_matter"
+      ],
+      "title": "Lectures on Solid State Physics",
+      "url": "https://www.damtp.cam.ac.uk/user/tong/solidstate.html"
+    },
+    {
+      "authority": "David Tong, University of Cambridge",
+      "id": "TONG-STRING",
+      "language": "en",
+      "scope": [
+        "research",
+        "string_theory",
+        "quantum_gravity"
+      ],
+      "title": "Lectures on String Theory",
+      "url": "https://davidtong.org/teaching/string-theory/"
+    },
+    {
+      "authority": "University of California, Davis",
+      "id": "UCDAVIS-PDE-HUNTER",
+      "language": "en",
+      "scope": [
+        "graduate",
+        "advanced_pde"
+      ],
+      "title": "Notes on Partial Differential Equations",
+      "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf"
+    },
+    {
+      "authority": "Peeter Joot; University of Toronto PHY2403 course context",
+      "id": "UOFT-QFT-JOOT",
+      "language": "en",
+      "scope": [
+        "research",
+        "quantum_field_theory",
+        "gauge_theory"
+      ],
+      "snapshot_commit": "c6fd595c4e63419c47a7f1c334f3042f5289c2fc",
+      "title": "Quantum Field Theory lecture notes and worked formalism",
+      "url": "https://github.com/peeterjoot/phy2403-quantum-field-theory"
+    },
+    {
+      "authority": "David L. Wiltshire; typesetting repository by Josh Watt",
+      "id": "WILTSHIRE-GR",
+      "language": "en",
+      "scope": [
+        "research",
+        "general_relativity"
+      ],
+      "snapshot_commit": "d9451a0285c7251e002fc13757bbd802549c4d17",
+      "title": "General Relativity lecture notes",
+      "url": "https://github.com/Jollywatt/General-Relativity-lectures"
+    },
+    {
+      "authority": "Wladimir E. Banda-Barragán, Universidad Yachay Tech",
+      "id": "YACHAY-NONLINEAR",
+      "language": "en",
+      "scope": [
+        "research",
+        "nonlinear_physics",
+        "dynamical_systems"
+      ],
+      "snapshot_commit": "e253ab48c20149af5d2ae67e8257df045c8f441a",
+      "title": "Nonlinear Dynamics and Chaos MSc course materials",
+      "url": "https://github.com/wbandabarragan/nonlinear-dynamics-chaos"
+    }
+  ]
+}

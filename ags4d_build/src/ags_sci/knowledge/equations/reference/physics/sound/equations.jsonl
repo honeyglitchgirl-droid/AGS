@@ -1,0 +1,4 @@
+{"id":"PHY-SND-000001","domain":"physics","topic":"sound","formula":"v_{\\mathrm{sound}}=f\\lambda","subtopic":"sound_waves","source_level":"k12","curriculum_level":"lower_secondary","source_ids":["CN-MOE-COMP-PHYS-2022"]}
+{"id":"PHY-SND-000002","domain":"physics","topic":"sound","formula":"I=\\frac{P}{A}","subtopic":"intensity","source_level":"k12","curriculum_level":"senior_high","source_ids":["CN-MOE-HIGH-PHYS-2020"],"aliases":["sound intensity"]}
+{"id":"PHY-SND-000003","domain":"physics","topic":"sound","formula":"L_I=10\\log_{10}\\frac{I}{I_0}\\ \\mathrm{dB}","subtopic":"sound_level","source_level":"k12","curriculum_level":"senior_high","source_ids":["CN-MOE-HIGH-PHYS-2020"],"aliases":["sound intensity level"]}
+{"id":"PHY-SND-000004","domain":"physics","topic":"sound","formula":"d=\\frac{v\\Delta t}{2}","subtopic":"echo","source_level":"k12","curriculum_level":"lower_secondary","source_ids":["CN-MOE-COMP-PHYS-2022"],"aliases":["echo distance"]}

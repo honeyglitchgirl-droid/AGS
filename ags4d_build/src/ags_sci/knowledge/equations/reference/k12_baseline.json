@@ -1,0 +1,127 @@
+{
+  "baseline_name": "k12-v1.0.0",
+  "captured_on": "2026-10-05",
+  "corpus_version": "1.0.0",
+  "files": {
+    "mathematics/algebra/equations.jsonl": {
+      "records": 35,
+      "sha256": "d77dc11017f8e0872b027ee65dea947ff64cd3fa0b1d1fcb0bceaad9cbcad96f"
+    },
+    "mathematics/arithmetic/equations.jsonl": {
+      "records": 30,
+      "sha256": "5db0106d891db657cf05253e059a71c8bfffe6d0b74ba5bc0f3aef332e9106ef"
+    },
+    "mathematics/calculus/equations.jsonl": {
+      "records": 16,
+      "sha256": "67ae845f145cf1fea9687ca599f2635c8dadf4ed367aacdad21303087b084882"
+    },
+    "mathematics/coordinate_geometry/equations.jsonl": {
+      "records": 16,
+      "sha256": "175e5c443679771990864ed0aa7693af641fbe3594dc77f3a3814322e3907c20"
+    },
+    "mathematics/discrete_mathematics/equations.jsonl": {
+      "records": 6,
+      "sha256": "1827ecdb2921fd547db5abee7d53332981457e188d58532122c43f54a0906dba"
+    },
+    "mathematics/functions/equations.jsonl": {
+      "records": 16,
+      "sha256": "9ba8bcaeed37a1c15fc66135085e011ad81521f5f1b6575aefe872919e75e8dc"
+    },
+    "mathematics/geometry/equations.jsonl": {
+      "records": 32,
+      "sha256": "09ab697f1e5470b58df27e4a3a68a7089f8738a141b5f14816f5c79c37ae9faa"
+    },
+    "mathematics/matrices/equations.jsonl": {
+      "records": 6,
+      "sha256": "89c988eee8dee3b8cc6fc989a1cb58204393830aefe8d05cf5e55b0ca0943fd0"
+    },
+    "mathematics/number_theory/equations.jsonl": {
+      "records": 6,
+      "sha256": "a883cd581eb23f124966417d9a548fc38046c08f1943968cdd3e9ab4ced0ba4b"
+    },
+    "mathematics/probability/equations.jsonl": {
+      "records": 15,
+      "sha256": "436acc13b83bea3cc847f55e6ec370b0b622fe0cbf927fcd409f4d17bf001869"
+    },
+    "mathematics/sequences/equations.jsonl": {
+      "records": 9,
+      "sha256": "d0f6e34d7486af5bc8e1da00b609c06f959d384a8375099fc4fcff08dcb0a66c"
+    },
+    "mathematics/statistics/equations.jsonl": {
+      "records": 15,
+      "sha256": "5dea884b099fb449402833eb6eaae24269290cfb2a3d8226e68f597f5e6af811"
+    },
+    "mathematics/trigonometry/equations.jsonl": {
+      "records": 18,
+      "sha256": "46703dc963e3ad09f73c010c39f82c23dac95ba43e587f79ed253aa3cc56a09b"
+    },
+    "mathematics/vectors/equations.jsonl": {
+      "records": 9,
+      "sha256": "22efe4a5f126b7f3fc14ad614de28049752ff278b0de9f53fcef4d2158b6c036"
+    },
+    "physics/atomic_physics/equations.jsonl": {
+      "records": 4,
+      "sha256": "47b6bf1f490b69de69d0ab1135daae2498e1ff8f3bad17a37d99ae37a4c5fa54"
+    },
+    "physics/electricity/equations.jsonl": {
+      "records": 20,
+      "sha256": "ff2a0c9f396c13454ecb2c38fd100ba0a008d749995994f1198b2587b11d1393"
+    },
+    "physics/electromagnetism/equations.jsonl": {
+      "records": 10,
+      "sha256": "5eb52fab21628255f3f5232d2ed271e28a80113c692abcbba88b82b69a99c6f0"
+    },
+    "physics/gravitation/equations.jsonl": {
+      "records": 6,
+      "sha256": "811af9325204f46c0ec8ed5e2346f1033f46cda1c7c28233d6266505f6dd19db"
+    },
+    "physics/magnetism/equations.jsonl": {
+      "records": 6,
+      "sha256": "41299988ba941909ecfed78722fe467cd70d49f35476310c9ffe975406d3203d"
+    },
+    "physics/mechanics/equations.jsonl": {
+      "records": 30,
+      "sha256": "7852fc1650da2aab318cdce2b55aa3c29aced18b393b7eed1b30df1ecef5b390"
+    },
+    "physics/modern_physics/equations.jsonl": {
+      "records": 5,
+      "sha256": "77e3dd230910b096350662033fc4c2ac216bfbf507958d3bf104ba2f9cda109d"
+    },
+    "physics/nuclear_physics/equations.jsonl": {
+      "records": 9,
+      "sha256": "066e61b9fe93d1f57d91ee8eafa5b2c87969d51621813a7fa09e3b7b4c0392cd"
+    },
+    "physics/optics/equations.jsonl": {
+      "records": 11,
+      "sha256": "7091dec0e77802f440e80764ef36e95cd2483d894b1e2f624685a8201ba56a04"
+    },
+    "physics/properties_of_matter/equations.jsonl": {
+      "records": 10,
+      "sha256": "bbad5117cc8ec89792217f9a9429af663ac87fc6efe2e5f5d009f8375e443d05"
+    },
+    "physics/sound/equations.jsonl": {
+      "records": 4,
+      "sha256": "15dd79be0d12b67499d6e0614caf3d01bde0b48bc080d42b714232260c5a29b2"
+    },
+    "physics/thermodynamics/equations.jsonl": {
+      "records": 12,
+      "sha256": "b291c8b17e004cba9e584604bd6d5c756f2f716383210f68d2cc51730f5980a0"
+    },
+    "physics/waves/equations.jsonl": {
+      "records": 10,
+      "sha256": "45d4fe528213885b782d6dd63aff63fdb24fa045984bab913686051f9e59dfd9"
+    }
+  },
+  "manifest_sha256": "eeed7722a3e15fa4338a581c3dc8ff31f8a61d4b1c72086a7f79e92b8e6c2a11",
+  "mathematics_count": 229,
+  "metadata_evolution_note": "The original metadata hashes are retained for audit. Corpus 2.0.0 extends schema.json and sources.json without changing any K-12 JSONL byte.",
+  "ordered_data_hash_digest": "aeb48c1ed39069e7109eabfac485e7a2ba049e795d539a81eafb608b538491cc",
+  "original_metadata_hashes": {
+    "manifest.json": "eeed7722a3e15fa4338a581c3dc8ff31f8a61d4b1c72086a7f79e92b8e6c2a11",
+    "schema.json": "9ecf127ea74505848371722b2a297286917f112d2da81f6c5a094ebb85b0c482",
+    "sources.json": "56110d350dd77670e3da1e465bf0a9f465ee60399836434af300538d1fa70c38"
+  },
+  "physics_count": 137,
+  "preservation_policy": "All 27 legacy K-12 JSONL paths, records, identifiers, and bytes are immutable. University additions live only in level-prefixed directories.",
+  "record_count": 366
+}
