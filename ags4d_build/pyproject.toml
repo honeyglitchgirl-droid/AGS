@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ags-sci"
+version = "102.5.0"
+description = "Causally grounded autonomous scientific discovery engine"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23", "pydantic>=2.7", "sympy>=1.12"]
+
+[project.optional-dependencies]
+scipy = ["scipy>=1.9"]
+test = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ags_sci*"]
+
+[project.scripts]
+ags-sci = "ags_sci.cli:main"
