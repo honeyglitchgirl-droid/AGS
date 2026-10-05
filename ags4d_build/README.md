@@ -58,6 +58,34 @@ See `docs/CAPABILITY_UPGRADE.md` for the full capability surface, including the
 self-evolution, the invention layer, and the quantum simulator (a simulation,
 not a speedup).
 
+## Audited equation reference corpus
+
+A separately versioned, read-only mathematics and physics corpus is available
+through `ags_sci.knowledge.EquationCorpus`. Corpus `3.0.0` contains 6,620
+opaque LaTeX-compatible records, including 5,600 source-located research
+relations under separate mathematics and physics directories. Independent locks
+prove that all 1,020 pre-research records remain byte-for-byte unchanged.
+Retrieval presents candidates; it does not parse, execute, solve, automatically
+apply, or promote an equation into AGS reasoning or discovery.
+
+```python
+from ags_sci.knowledge import EquationCorpus
+
+corpus = EquationCorpus()  # verifies every packaged manifest hash
+candidates = corpus.retrieve(
+    "Einstein tensor", domain="physics", source_level="graduate"
+)
+```
+
+Validate independently with:
+
+```bash
+python -m ags_sci.knowledge.validate_equations
+```
+
+See `docs/EQUATION_CORPUS.md` for scope, provenance, lifecycle isolation, and
+schema details.
+
 ## v102 4D
 
 An experimental `FourDScalarFieldEngine` is now implemented for 4D periodic scalar PDE experiments. It provides gradient, Laplacian, Poisson inversion, spectral filtering, diffusion/Helmholtz RHS operators, and diagnostics. See `docs/4D_ENGINE.md`.

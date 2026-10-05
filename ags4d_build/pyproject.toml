@@ -21,5 +21,21 @@ testpaths = ["tests"]
 where = ["src"]
 include = ["ags_sci*"]
 
+[tool.setuptools.package-data]
+"ags_sci.knowledge.equations" = [
+    "README.md",
+    "reference/*.json",
+    "reference/mathematics/*/*.jsonl",
+    "reference/physics/*/*.jsonl",
+    "reference/undergraduate/mathematics/*/*.jsonl",
+    "reference/undergraduate/physics/*/*.jsonl",
+    "reference/graduate/mathematics/*/*.jsonl",
+    "reference/graduate/physics/*/*.jsonl",
+    "reference/research/mathematics/*/*.jsonl",
+    "reference/research/physics/*/*.jsonl",
+    "discovered/*.md",
+    "discovered/*/*.md",
+]
+
 [project.scripts]
 ags-sci = "ags_sci.cli:main"

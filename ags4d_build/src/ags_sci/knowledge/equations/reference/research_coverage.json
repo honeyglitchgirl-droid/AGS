@@ -1,0 +1,302 @@
+{
+  "claim": "Broad formula-reference coverage only; not exhaustive research coverage.",
+  "corpus_version": "3.0.0",
+  "coverage_version": "1.0.0",
+  "domains": {
+    "mathematics": {
+      "algebraic_geometry": {
+        "records": 360,
+        "source_count": 1,
+        "source_ids": [
+          "STACKS-PROJECT"
+        ],
+        "status": "covered"
+      },
+      "algebraic_topology": {
+        "records": 132,
+        "source_count": 2,
+        "source_ids": [
+          "SCHULLER-GEOMETRIC",
+          "STACKS-PROJECT"
+        ],
+        "status": "covered"
+      },
+      "calculus_of_variations": {
+        "records": 6,
+        "source_count": 1,
+        "source_ids": [
+          "UCDAVIS-PDE-HUNTER"
+        ],
+        "status": "partial"
+      },
+      "category_homological_algebra": {
+        "records": 260,
+        "source_count": 1,
+        "source_ids": [
+          "STACKS-PROJECT"
+        ],
+        "status": "covered"
+      },
+      "differential_riemannian_geometry": {
+        "records": 139,
+        "source_count": 1,
+        "source_ids": [
+          "SCHULLER-GEOMETRIC"
+        ],
+        "status": "covered"
+      },
+      "differential_topology": {
+        "records": 2,
+        "source_count": 1,
+        "source_ids": [
+          "SCHULLER-GEOMETRIC"
+        ],
+        "status": "partial"
+      },
+      "dynamical_systems": {
+        "records": 50,
+        "source_count": 1,
+        "source_ids": [
+          "NIST-DLMF"
+        ],
+        "status": "covered"
+      },
+      "functional_analysis": {
+        "records": 119,
+        "source_count": 1,
+        "source_ids": [
+          "SCHULLER-QUANTUM"
+        ],
+        "status": "covered"
+      },
+      "lie_theory": {
+        "records": 99,
+        "source_count": 1,
+        "source_ids": [
+          "SCHULLER-GEOMETRIC"
+        ],
+        "status": "covered"
+      },
+      "mathematical_physics": {
+        "records": 299,
+        "source_count": 1,
+        "source_ids": [
+          "NIST-DLMF"
+        ],
+        "status": "covered"
+      },
+      "number_theory": {
+        "records": 100,
+        "source_count": 1,
+        "source_ids": [
+          "NIST-DLMF"
+        ],
+        "status": "covered"
+      },
+      "numerical_mathematics": {
+        "records": 50,
+        "source_count": 1,
+        "source_ids": [
+          "NIST-DLMF"
+        ],
+        "status": "covered"
+      },
+      "operator_theory": {
+        "records": 80,
+        "source_count": 2,
+        "source_ids": [
+          "NIST-DLMF",
+          "SCHULLER-QUANTUM"
+        ],
+        "status": "covered"
+      },
+      "optimization_control": {
+        "records": 7,
+        "source_count": 1,
+        "source_ids": [
+          "STANFORD-CONVEX"
+        ],
+        "status": "partial"
+      },
+      "partial_differential_equations": {
+        "records": 6,
+        "source_count": 1,
+        "source_ids": [
+          "UCDAVIS-PDE-HUNTER"
+        ],
+        "status": "partial"
+      },
+      "probability_stochastic_analysis": {
+        "records": 37,
+        "source_count": 2,
+        "source_ids": [
+          "MIT-15070-STOCHASTIC",
+          "SCHULLER-QUANTUM"
+        ],
+        "status": "covered"
+      },
+      "representation_theory": {
+        "records": 85,
+        "source_count": 2,
+        "source_ids": [
+          "NIST-DLMF",
+          "SCHULLER-GEOMETRIC"
+        ],
+        "status": "covered"
+      },
+      "special_functions": {
+        "records": 1197,
+        "source_count": 1,
+        "source_ids": [
+          "NIST-DLMF"
+        ],
+        "status": "covered"
+      },
+      "symplectic_complex_geometry": {
+        "records": 5,
+        "source_count": 1,
+        "source_ids": [
+          "MIT-18966-SYMPLECTIC"
+        ],
+        "status": "partial"
+      }
+    },
+    "physics": {
+      "astrophysics": {
+        "records": 300,
+        "source_count": 1,
+        "source_ids": [
+          "MSU-STELLAR"
+        ],
+        "status": "covered"
+      },
+      "condensed_matter": {
+        "records": 6,
+        "source_count": 1,
+        "source_ids": [
+          "TONG-SOLIDSTATE"
+        ],
+        "status": "partial"
+      },
+      "cosmology": {
+        "records": 90,
+        "source_count": 1,
+        "source_ids": [
+          "RESTREPO-QFT-SM"
+        ],
+        "status": "covered"
+      },
+      "fluid_physics": {
+        "records": 150,
+        "source_count": 1,
+        "source_ids": [
+          "FITZPATRICK-PLASMA"
+        ],
+        "status": "covered"
+      },
+      "gauge_theory": {
+        "records": 80,
+        "source_count": 1,
+        "source_ids": [
+          "RESTREPO-QFT-SM"
+        ],
+        "status": "covered"
+      },
+      "general_relativity": {
+        "records": 21,
+        "source_count": 1,
+        "source_ids": [
+          "WILTSHIRE-GR"
+        ],
+        "status": "partial"
+      },
+      "many_body_physics": {
+        "records": 400,
+        "source_count": 1,
+        "source_ids": [
+          "NUCLEAR-TALENT-MANYBODY"
+        ],
+        "status": "covered"
+      },
+      "nonlinear_physics": {
+        "records": 50,
+        "source_count": 1,
+        "source_ids": [
+          "YACHAY-NONLINEAR"
+        ],
+        "status": "covered"
+      },
+      "nuclear_physics": {
+        "records": 89,
+        "source_count": 1,
+        "source_ids": [
+          "MIT-NUCLEAR-NOTES"
+        ],
+        "status": "covered"
+      },
+      "plasma_physics": {
+        "records": 300,
+        "source_count": 1,
+        "source_ids": [
+          "FITZPATRICK-PLASMA"
+        ],
+        "status": "covered"
+      },
+      "quantum_field_theory": {
+        "records": 470,
+        "source_count": 2,
+        "source_ids": [
+          "RESTREPO-QFT-SM",
+          "UOFT-QFT-JOOT"
+        ],
+        "status": "covered"
+      },
+      "quantum_information_optics": {
+        "records": 176,
+        "source_count": 1,
+        "source_ids": [
+          "KEIO-QUANTUM-COMMS"
+        ],
+        "status": "covered"
+      },
+      "quantum_mechanics": {
+        "records": 80,
+        "source_count": 1,
+        "source_ids": [
+          "KEIO-QUANTUM-COMMS"
+        ],
+        "status": "covered"
+      },
+      "standard_model_qcd": {
+        "records": 330,
+        "source_count": 1,
+        "source_ids": [
+          "RESTREPO-QFT-SM"
+        ],
+        "status": "covered"
+      },
+      "statistical_mechanics": {
+        "records": 16,
+        "source_count": 1,
+        "source_ids": [
+          "MSU-STELLAR"
+        ],
+        "status": "partial"
+      },
+      "string_quantum_gravity": {
+        "records": 9,
+        "source_count": 1,
+        "source_ids": [
+          "TONG-STRING"
+        ],
+        "status": "partial"
+      }
+    }
+  },
+  "generated_on": "2026-10-05",
+  "status_policy": {
+    "covered": "at least 25 distinct relations",
+    "not covered": "zero relations",
+    "partial": "1-24 distinct relations"
+  }
+}
